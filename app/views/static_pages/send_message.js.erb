@@ -1,0 +1,11 @@
+
+$('#simple_form').trigger("reset");
+$('.loading_gif').append('<div class="abhas_loader"></div>').after(function() {
+	$(".abhas_loader").fadeOut(1000);
+});
+
+if (i == 0) {
+   $('#basic_mailer').append('<h4 class="success_alert">Message sent successfully!</h4>');
+}
+
+i++; /* increment the counter */
